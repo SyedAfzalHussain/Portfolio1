@@ -10,17 +10,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>Afzal | Portfolio Website</title>
     <link rel="icon" type="image/svg+xml" href="./docs/Img.png">
-    
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&amp;display=swap"
         rel="stylesheet">
 </head>
-<link rel="stylesheet" href="./docs/style.css"> 
+<link rel="stylesheet" href="./docs/style.css">
+
 <body>
     <main id="root">
         <aside class="sidebar">
             <div class="sidebar-info">
-                <figure class="avatar-box"><img class="mainImg" src="./docs/Img.png" alt="Syed Afzal Hussain"
-                        width="50"></figure>
+                <figure class="avatar-box"><img class="mainImg" src="./docs/Img.png" alt="Afzal" width="50">
+                </figure>
                 <div class="info-content">
                     <h1 class="name" title="Syed Afzal Hussain">Syed Afzal Hussain</h1>
                     <p class="title">Software Engineer</p>
@@ -140,8 +141,8 @@
                                 </div>
                             </li>
                             <li class="service-item">
-                                <div class="service-icon-box"><img src="./docs/icon-dev.svg"
-                                        alt="Web development icon" width="40"></div>
+                                <div class="service-icon-box"><img src="./docs/icon-dev.svg" alt="Web development icon"
+                                        width="40"></div>
                                 <div class="service-content-box">
                                     <h4 class="h4 service-item-title">Web development</h4>
                                     <p class="service-item-text">High-Quality development of sites at the professional
@@ -239,7 +240,8 @@
                             <li class="timeline-item">
                                 <h4 class="h4 timeline-item-title">Web Developer Freelace</h4><span>Feb 2022 -
                                     Aug 2024</span>
-                                <p class="timeline-text">Developed interactive user interfaces with HTML, CSS, JavaScript, and NEXTJS web projects for Clients.</p>
+                                <p class="timeline-text">Developed interactive user interfaces with HTML, CSS,
+                                    JavaScript, and NEXTJS web projects for Clients.</p>
                             </li>
                         </ol>
                     </div>
@@ -405,13 +407,17 @@
                     </section>
                     <section class="contact-form">
                         <h3 class="h3 form-title">Contact Form</h3>
-                        <form action="#" class="form" data-form="true">
-                            <div class="input-wrapper"><input type="text" name="fullname" class="form-input"
-                                    placeholder="Full name" required="" data-form-input="true"><input type="email"
-                                    name="email" class="form-input" placeholder="Email address" required=""
-                                    data-form-input="true"></div><textarea name="message" class="form-input"
-                                placeholder="Your Message" required="" data-form-input="true"></textarea><button
-                                class="form-btn" type="submit" data-form-btn="true"><ion-icon
+                        <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form="true">
+                            <input type="hidden" name="access_key" value="7f0e9fa9-69a6-4c8e-8278-0bdba641ca43">
+                            <div class="input-wrapper">
+                                <input type="text" name="fullname" class="form-input" placeholder="Full name"
+                                    required="" data-form-input="true">
+                                <input type="email" name="email" class="form-input" placeholder="Email address"
+                                    required="" data-form-input="true">
+                            </div>
+                            <textarea name="message" class="form-input" placeholder="Your Message" required=""
+                                data-form-input="true"></textarea>
+                            <button class="form-btn" type="submit" data-form-btn="true"><ion-icon
                                     name="paper-plane"></ion-icon><span>Send Message</span>
                             </button>
                         </form>

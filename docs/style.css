@@ -1115,7 +1115,7 @@ textarea.form-input::-webkit-resizer {
 }
 
 .mainImg {
-    object-fit: none;
+    object-fit: contain;
 }
 
 @media (min-width: 450px) {
