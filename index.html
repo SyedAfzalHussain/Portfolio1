@@ -10,11 +10,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>Afzal | Portfolio Website</title>
     <link rel="icon" type="image/svg+xml" href="./docs/Img.png">
-
+    <!-- In the <head> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&amp;display=swap"
         rel="stylesheet">
 </head>
 <link rel="stylesheet" href="./docs/style.css">
+
+<!-- Before </body> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 
 <body>
     <main id="root">
@@ -24,7 +28,7 @@
                 </figure>
                 <div class="info-content">
                     <h1 class="name" title="Syed Afzal Hussain">Syed Afzal Hussain</h1>
-                    <p class="title">Software Engineer</p>
+                    <p class="title">MERN STACK DEVELOPER</p>
                 </div><button class="info_more-btn" data-sidebar-btn="true"><span>Show Contacts</span><svg
                         stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em"
                         width="1em" xmlns="http://www.w3.org/2000/svg">
@@ -69,8 +73,8 @@
                             </svg></div>
                         <div class="contact-info">
                             <p class="contact-title">Linkedin</p><a
-                                href="https://www.linkedin.com/in/syed-afzal-hussain-8b3904248/"
-                                class="contact-link">@syed-afzal-hussain-8b3904248</a>
+                                href="https://www.linkedin.com/in/syed-afzal-hussain/"
+                                class="contact-link">@syed-afzal-hussain</a>
                         </div>
                     </li>
                     <li class="contact-item">
@@ -118,15 +122,11 @@
                         <h2 class="h2 article-title">About me</h2>
                     </header>
                     <section class="about-text">
-                        <p>I'm Dedighted Software Engineer from Rawalpindi, Punjab, Pakistan, working in web
-                            development. I
-                            enjoy turning complex problems into simple, beautiful and intuitive designs.</p>
-                        <p>As a web developer, my goal is to create a safe and effective online experience. I prioritize
-                            security measures to ensure your website is protected against threats. I protect your user
-                            data and maintain their trust by using best practices such as encryption, secure
-                            authentication, and vulnerability testing. I also improve performance to reduce loading
-                            times, increase user engagement, and reduce bounce rates. Let's create a website that not
-                            only looks beautiful but is also important for security</p>
+                        <p>A results-oriented MERN Stack Developer who has a good base in computer science and
+                            substantial full stack web app experience. Proficient in Javascript, Reactive, Node. js, and
+                            Express. js, with strong skill in MongoDB, Next. js, and RESTful API design. Past successes
+                            in building user-first solutions (for instance, simplifying a bespoke mechanism for
+                            ordering PCBs which led to an order of magnitude increase in customer satisfaction).</p>
                     </section>
                     <section class="service">
                         <h3 class="h3 service-title">What i'm doing</h3>
@@ -136,7 +136,8 @@
                                         width="40"></div>
                                 <div class="service-content-box">
                                     <h4 class="h4 service-item-title">Web design</h4>
-                                    <p class="service-item-text">Modern &amp; High-quality designs made at a professional
+                                    <p class="service-item-text">Modern &amp; High-quality designs made at a
+                                        professional
                                         level.</p>
                                 </div>
                             </li>
@@ -150,23 +151,26 @@
                                 </div>
                             </li>
                             <li class="service-item">
-                                <div class="service-icon-box"><img src="./docs/icon-app.svg" alt="Mobile apps icon"
-                                        width="40"></div>
+                                <div class="service-icon-box">
+                                    <img src="./docs/icon-design1.svg" alt="Backend development icon" width="40">
+                                </div>
                                 <div class="service-content-box">
-                                    <h4 class="h4 service-item-title">Mobile apps</h4>
-                                    <p class="service-item-text">Professional development of applications for iOS and
-                                        Android.</p>
+                                    <h4 class="h4 service-item-title">Backend Development</h4>
+                                    <p class="service-item-text">Robust server-side logic, RESTful APIs, and scalable
+                                        backend solutions.</p>
                                 </div>
                             </li>
                             <li class="service-item">
-                                <div class="service-icon-box"><img src="./docs/icon-photo.svg" alt="3D Animation icon"
-                                        width="40"></div>
+                                <div class="service-icon-box">
+                                    <img src="./docs/icon-dev.svg" alt="Database icon" width="40">
+                                </div>
                                 <div class="service-content-box">
-                                    <h4 class="h4 service-item-title">Animation</h4>
-                                    <p class="service-item-text">High-Quality animation of any category at a
-                                        professional level.</p>
+                                    <h4 class="h4 service-item-title">Database (SQL &amp; NoSQL)</h4>
+                                    <p class="service-item-text">Experience with SQL databases and NoSQL solutions like
+                                        MongoDB and Firebase.</p>
                                 </div>
                             </li>
+
                         </ul>
                     </section>
                     <section class="testimonials">
@@ -176,10 +180,10 @@
                                 <div class="content-card" data-testimonials-item="true">
                                     <figure class="testimonials-avatar-box"><img src="./docs/avatar-4.png"
                                             alt="Daniel Lewis" width="60" data-testimonials-avatar="true"></figure>
-                                    <h4 class="h4 testimonials-item-title" data-testimonials-title="true">Daniel Lewis
+                                    <h4 class="h4 testimonials-item-title" data-testimonials-title="true">Lewis
                                     </h4>
                                     <div class="testimonials-text" data-testimonials-text="true">
-                                        <p>Very good developer and I recommend this person.</p>
+                                        <p>Excellent developer, and I highly recommend this person.</p>
                                     </div>
                                 </div>
                             </li>
@@ -204,20 +208,13 @@
                         </div>
                         <ol class="timeline-list">
                             <li class="timeline-item">
-                                <h4 class="h4 timeline-item-title">Comsats University Islamabad (Attock Campus), Punjab
+                                <h4 class="h4 timeline-item-title">Comsats University Islamabad - Attock Campus
+                                    (BSCS)</h4>
                                 </h4>
                                 <span>2021 — 2025</span>
                                 <p class="timeline-text">Working on my Skills to become Professional Developer</p>
                             </li>
-                            <li class="timeline-item">
-                                <h4 class="h4 timeline-item-title">Government College Skardu</h4><span>2019
-                                    — 2021</span>
-                                <p class="timeline-text">One of the best Students in Academics</p>
-                            </li>
-                            <li class="timeline-item">
-                                <h4 class="h4 timeline-item-title">Public School Skardu</h4>
-                                <span>2017 — 2019</span>
-                                <p class="timeline-text"></p>
+                            <li>
                             </li>
                         </ol>
                     </div>
@@ -233,15 +230,53 @@
                         </div>
                         <ol class="timeline-list">
                             <li class="timeline-item">
-                                <h4 class="h4 timeline-item-title">MA Digital Marketing</h4>
-                                <span>June 2022 — July 2022</span>
-                                <p class="timeline-text">I worked some realworld projects with team.</p>
+                                <h4 class="h4 timeline-item-title">Byte and Board Solutions</h4>
+                                <span>March 2025 — July 2025</span>
+                                <p class="timeline-text">Spearheaded the development of the Byte & Board Solutions web
+                                    application (developed using Node.js/Express and a React front-end) to automate
+                                    customized PCB ordering and shipping. I worked a realworld project with team.</p>
                             </li>
                             <li class="timeline-item">
-                                <h4 class="h4 timeline-item-title">Web Developer Freelace</h4><span>Feb 2022 -
-                                    Aug 2024</span>
-                                <p class="timeline-text">Developed interactive user interfaces with HTML, CSS,
-                                    JavaScript, and NEXTJS web projects for Clients.</p>
+                                <h4 class="h4 timeline-item-title">MA Digital Marketing</h4>
+                                <span>June 2022 — July 2022</span>
+                                <p class="timeline-text">Design mockups were converted into interactive user interfaces,
+                                    which enhanced user experience and website load times. and created their front-end
+                                    website using HTML5, CSS, and JavaScript, making it completely responsive, which
+                                    greatly enhanced performance.</p>
+                            </li>
+                            <li class="timeline-item">
+                                <h4 class="h4 timeline-item-title">Projects</h4><span>Feb 2022 -
+                                    Jul 2025</span>
+                                <p class="timeline-text"> <b><b>FYP : AI-Powered Eye Health Platform</b> </b><br>
+                                    Directed a secure web application project for AI-based cataract/glaucoma diagnosis
+                                    with federated learning. Developed independent dashboards for doctors and patients,
+                                    scheduling and consults, with Django and FastAPI backends and Firebase for database
+                                    storage. Although this employs Python, it shows full-stack and machine-learning
+                                    integration capability.</p>
+                                <br>
+                                <p class="timeline-text"><b><b>Digital Empowerment Pakistan Website (Next.js 13, React,
+                                            2024) </b></b> <br>
+                                    Developed a dynamic web application for Digital Empowerment Pakistan—a non-profit
+                                    organization—using Next.js. The platform promotes digital literacy and youth
+                                    empowerment by showcasing events, webinars, and initiatives aimed at bridging the
+                                    digital divide in Pakistan.</p>
+                                <br>
+                                <p class="timeline-text"><b><b>End-to-End chatApp </b></b><br>
+                                    Built a real-time chat application with end-to-end encryption.
+                                    Built a Node.js server on Socket.IO for two-way messaging and applied RSA encryption
+                                    on the client side to encrypt messages.</p>
+                                <br>
+                                <p class="timeline-text"><b><b>Fiver Order</b></b> <br>
+                                    Developed a dynamic landing page for an anime website,
+                                    increasing user engagement by 75% and showcasing modern front-end techniques.</p>
+
+                            </li>
+                            <li>
+                                <!-- <h4 class="h4 timeline-item-title">Fiver</h4><span>Feb 2022 -
+                                    April 2022</span>
+                                <p class="timeline-text"> <b><b>Anime Website</b> </b><br>
+                                    Designed and deployed a dynamic landing page for an anime website, using modern JavaScript and CSS techniques to increase user engagement by 75%.</p>
+                                <br> -->
                             </li>
                         </ol>
                     </div>
@@ -290,107 +325,121 @@
                 </header>
                 <ul class="filter-list">
                     <li class="filter-item"><button class="active" data-filter-btn="true">All</button></li>
-                    <li class="filter-item"><button class="" data-filter-btn="true">Web design</button></li>
-                    <li class="filter-item"><button class="" data-filter-btn="true">Applications</button></li>
-                    <li class="filter-item"><button class="" data-filter-btn="true">Web development</button></li>
                 </ul>
                 <section class="projects">
                     <ul class="project-list">
-                        <li class="project-item active" data-filter-item="true" data-category="Web development"><a
-                                href="#">
+                        <li class="project-item active" data-filter-item="true" data-category="Web development">
+                            <a href="./docs/portfolio1.png" data-lightbox="portfolio" data-title="Finance">
                                 <figure class="project-img">
-                                    <div class="project-item-icon-box"><svg stroke="currentColor" fill="currentColor"
-                                            stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em"
+                                    <div class="project-item-icon-box">
+                                        <!-- Eye icon for hover -->
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 576 512" height="1em" width="1em"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M288 144a110.94 110.94 0 0 0-31.24 5 55.4 55.4 0 0 1 7.24 27 56 56 0 0 1-56 56 55.4 55.4 0 0 1-27-7.24A111.71 111.71 0 1 0 288 144zm284.52 97.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400c-98.65 0-189.09-55-237.93-144C98.91 167 189.34 112 288 112s189.09 55 237.93 144C477.1 345 386.66 400 288 400z">
                                             </path>
-                                        </svg></div><img src="./docs/project-1.jpg" alt="Finance" loading="lazy">
+                                        </svg>
+                                    </div>
+                                    <img src="./docs/portfolio1.png" alt="Finance" loading="lazy">
                                 </figure>
-                                <h3 class="project-title">Finance</h3>
-                                <p class="project-category">Web development</p>
-                            </a></li>
-                        <li class="project-item active" data-filter-item="true" data-category="Web development"><a
-                                href="#">
+                                <h3 class="project-title">Byte Solutions Website</h3>
+                                <p class="project-category">Admin Panel of website</p>
+                            </a>
+                        </li>
+                        <li class="project-item active" data-filter-item="true" data-category="Web design">
+                            <a href="./docs/fyp.png" data-lightbox="portfolio" data-title="DSM.">
                                 <figure class="project-img">
-                                    <div class="project-item-icon-box"><svg stroke="currentColor" fill="currentColor"
-                                            stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em"
+                                    <div class="project-item-icon-box">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 576 512" height="1em" width="1em"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M288 144a110.94 110.94 0 0 0-31.24 5 55.4 55.4 0 0 1 7.24 27 56 56 0 0 1-56 56 55.4 55.4 0 0 1-27-7.24A111.71 111.71 0 1 0 288 144zm284.52 97.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400c-98.65 0-189.09-55-237.93-144C98.91 167 189.34 112 288 112s189.09 55 237.93 144C477.1 345 386.66 400 288 400z">
                                             </path>
-                                        </svg></div><img src="./docs/project2.png" alt="Orizon" loading="lazy">
+                                        </svg>
+                                    </div>
+                                    <img src="./docs/fyp.png" alt="DSM." loading="lazy">
                                 </figure>
-                                <h3 class="project-title">Orizon</h3>
-                                <p class="project-category">Web development</p>
-                            </a></li>
-                        <li class="project-item active" data-filter-item="true" data-category="Web design"><a href="#">
+                                <h3 class="project-title">Final Year Project.</h3>
+                                <p class="project-category">web application project for AI-based</p>
+                            </a>
+                        </li>
+                        <li class="project-item active" data-filter-item="true" data-category="Web development">
+                            <a href="./docs/Portfolio7.png" data-lightbox="portfolio" data-title="Summary">
                                 <figure class="project-img">
-                                    <div class="project-item-icon-box"><svg stroke="currentColor" fill="currentColor"
-                                            stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em"
+                                    <div class="project-item-icon-box">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 576 512" height="1em" width="1em"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M288 144a110.94 110.94 0 0 0-31.24 5 55.4 55.4 0 0 1 7.24 27 56 56 0 0 1-56 56 55.4 55.4 0 0 1-27-7.24A111.71 111.71 0 1 0 288 144zm284.52 97.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400c-98.65 0-189.09-55-237.93-144C98.91 167 189.34 112 288 112s189.09 55 237.93 144C477.1 345 386.66 400 288 400z">
                                             </path>
-                                        </svg></div><img src="./docs/project3.jfif" alt="Fundo" loading="lazy">
+                                        </svg>
+                                    </div>
+                                    <img src="./docs/Portfolio7.png" alt="Summary" loading="lazy">
                                 </figure>
-                                <h3 class="project-title">Fundo</h3>
-                                <p class="project-category">Web design</p>
-                            </a></li>
-                        <li class="project-item active" data-filter-item="true" data-category="Applications"><a
-                                href="#">
+                                <h3 class="project-title">Digital Empowerment Pakistan</h3>
+                                <p class="project-category">An organization s website using Next.js.</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item="true" data-category="Web development">
+                            <a href="./docs/portfolio-1.jpg" data-lightbox="portfolio" data-title="Orizon">
                                 <figure class="project-img">
-                                    <div class="project-item-icon-box"><svg stroke="currentColor" fill="currentColor"
-                                            stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em"
+                                    <div class="project-item-icon-box">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 576 512" height="1em" width="1em"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M288 144a110.94 110.94 0 0 0-31.24 5 55.4 55.4 0 0 1 7.24 27 56 56 0 0 1-56 56 55.4 55.4 0 0 1-27-7.24A111.71 111.71 0 1 0 288 144zm284.52 97.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400c-98.65 0-189.09-55-237.93-144C98.91 167 189.34 112 288 112s189.09 55 237.93 144C477.1 345 386.66 400 288 400z">
                                             </path>
-                                        </svg></div><img src="./docs/project5.jfif" alt="Real Estate" loading="lazy">
+                                        </svg>
+                                    </div>
+                                    <img src="./docs/portfolio-1.jpg" alt="Orizon" loading="lazy">
                                 </figure>
-                                <h3 class="project-title">Real Estate</h3>
-                                <p class="project-category">Applications</p>
-                            </a></li>
-                        <li class="project-item active" data-filter-item="true" data-category="Web design"><a href="#">
+                                <h3 class="project-title">MA Digital Website</h3>
+                                <p class="project-category">Home page of website</p>
+                            </a>
+                        </li>
+                        <li class="project-item active" data-filter-item="true" data-category="Web design">
+                            <a href="./docs/Portfolio9.png" data-lightbox="portfolio" data-title="Fundo">
                                 <figure class="project-img">
-                                    <div class="project-item-icon-box"><svg stroke="currentColor" fill="currentColor"
-                                            stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em"
+                                    <div class="project-item-icon-box">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 576 512" height="1em" width="1em"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M288 144a110.94 110.94 0 0 0-31.24 5 55.4 55.4 0 0 1 7.24 27 56 56 0 0 1-56 56 55.4 55.4 0 0 1-27-7.24A111.71 111.71 0 1 0 288 144zm284.52 97.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400c-98.65 0-189.09-55-237.93-144C98.91 167 189.34 112 288 112s189.09 55 237.93 144C477.1 345 386.66 400 288 400z">
                                             </path>
-                                        </svg></div><img src="./docs/project3.jfif" alt="DSM." loading="lazy">
+                                        </svg>
+                                    </div>
+                                    <img src="./docs/Portfolio9.png" alt="Fundo" loading="lazy">
                                 </figure>
-                                <h3 class="project-title">DSM.</h3>
-                                <p class="project-category">Web design</p>
-                            </a></li>
-                        <li class="project-item active" data-filter-item="true" data-category="Web design"><a href="#">
+                                <h3 class="project-title">Byte Solutions</h3>
+                                <p class="project-category">Home page</p>
+                            </a>
+                        </li>
+                        <li class="project-item active" data-filter-item="true" data-category="Applications">
+                            <a href="./docs/portfolio-4.jpg" data-lightbox="portfolio" data-title="Real Estate">
                                 <figure class="project-img">
-                                    <div class="project-item-icon-box"><svg stroke="currentColor" fill="currentColor"
-                                            stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em"
+                                    <div class="project-item-icon-box">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 576 512" height="1em" width="1em"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M288 144a110.94 110.94 0 0 0-31.24 5 55.4 55.4 0 0 1 7.24 27 56 56 0 0 1-56 56 55.4 55.4 0 0 1-27-7.24A111.71 111.71 0 1 0 288 144zm284.52 97.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400c-98.65 0-189.09-55-237.93-144C98.91 167 189.34 112 288 112s189.09 55 237.93 144C477.1 345 386.66 400 288 400z">
                                             </path>
-                                        </svg></div><img src="./docs/project7.jfif" alt="MetaSpark" loading="lazy">
+                                        </svg>
+                                    </div>
+                                    <img src="./docs/portfolio-4.jpg" alt="Real Estate" loading="lazy">
                                 </figure>
-                                <h3 class="project-title">MetaSpark</h3>
-                                <p class="project-category">Web design</p>
-                            </a></li>
-                        <li class="project-item active" data-filter-item="true" data-category="Web development"><a
-                                href="#">
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box"><svg stroke="currentColor" fill="currentColor"
-                                            stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M288 144a110.94 110.94 0 0 0-31.24 5 55.4 55.4 0 0 1 7.24 27 56 56 0 0 1-56 56 55.4 55.4 0 0 1-27-7.24A111.71 111.71 0 1 0 288 144zm284.52 97.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400c-98.65 0-189.09-55-237.93-144C98.91 167 189.34 112 288 112s189.09 55 237.93 144C477.1 345 386.66 400 288 400z">
-                                            </path>
-                                        </svg></div><img src="./docs/project8.jfif" alt="Summary" loading="lazy">
-                                </figure>
-                                <h3 class="project-title">Summary</h3>
-                                <p class="project-category">Web development</p>
-                            </a></li>
+                                <h3 class="project-title">MA digital</h3>
+                                <p class="project-category">Project of MA digital to hire labours online.</p>
+                            </a>
+                        </li>
+
+
                     </ul>
                 </section>
             </section>
@@ -426,6 +475,7 @@
             </section>
         </div>
     </main>
+
     <script>
         function goAbout() {
             document.getElementById('homePage').style.display = 'block';

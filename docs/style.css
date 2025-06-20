@@ -1717,3 +1717,8 @@ li{
 .active{
     color: rgb(56 189 248);
 }
+
+.lb-close {
+  font-size: 32px;
+  color: white;
+}
